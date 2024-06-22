@@ -10,10 +10,12 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject Inventory; 
 
     [SerializeField] private TMP_Text BalanceText;
+    
     void Start()
     {
-        Inventory.SetActive(true);
-        Inventory.SetActive(false);
+        // Салат гей
+        //Inventory.SetActive(true);
+        //Inventory.SetActive(false);
     }
 
     void Update()
